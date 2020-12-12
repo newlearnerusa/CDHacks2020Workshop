@@ -201,7 +201,7 @@ class SearchStack:
 
 def graph_search(G, start_node, searchDS):
 
-    container = searchDS()  # contains dictionaries with "state" and "plan" keys.
+    container = searchDS()  # contains dictionaries with "state" and "path" keys.
     visited = set()
     paths = dict()
 
@@ -257,7 +257,7 @@ hacky_create_graph1(DG1)
 
 
 def dec_plain_func1():
-    print("doing stuff inside the function")
+    print("inside the function")
 
 
 # TODO testing as wrapper
